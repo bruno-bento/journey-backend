@@ -1,0 +1,15 @@
+meta {
+  name: Confirm Participant
+  type: http
+  seq: 1
+}
+
+patch {
+  url: {{baseUrl}}/participants/:paticipantid/confirm
+  body: none
+  auth: none
+}
+
+params:path {
+  paticipantid: 550e8400-e29b-41d4-a716-446655440000
+}
